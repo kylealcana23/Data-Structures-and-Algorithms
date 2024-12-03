@@ -1,0 +1,93 @@
+START
+
+PRINT: PREPARING FOR SCHOOL              
+
+ 
+
+PRINT: Checking Today’s Class Schedule
+
+IF there are classes scheduled for today THEN
+
+    Identify the required textbooks and materials for each class
+
+ELSE
+
+    Print: "No classes today"
+
+ 
+
+Print: Preparing materials for the day
+
+    IF corresponding textbook and notebook are available THEN
+
+        Pack the textbook and notebook
+
+    ELSE
+
+        Print: "Required material missing”
+
+    END IF
+
+END FOR
+
+ 
+
+Print: Double Check Other Essential Things
+
+IF student ID is in wallet THEN
+
+    Confirm it's packed
+
+ELSE
+
+    Print: "Student ID not found, please locate it"
+
+   
+
+IF laptop and charger are packed THEN
+
+    Confirm it's packed
+
+ELSE
+
+    Print: "Laptop or charger missing"
+
+ 
+
+Print: Preparing Foods and Water
+
+Pack water bottle
+
+Pack snacks
+
+ 
+
+Print: Checking time and leaving the house
+
+Get current time
+
+IF time >= departure time THEN
+
+    Leave the house immediately to avoid being late
+
+ELSE
+
+    Print: "You're on time, relax"
+
+ 
+
+Print: Final Check Bag
+
+IF all items are packed THEN
+
+    Proceed to campus
+
+ELSE
+
+    Print: "Missing items, check again"
+
+PRINT: END OF ROUTINE
+
+ 
+
+END
